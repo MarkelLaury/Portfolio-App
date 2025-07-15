@@ -1,0 +1,27 @@
+{
+  "name": "Ava Thompson",
+  "profileImg": "/assets/images/ava-profile.jpg",
+  "title": "Frontend Developer",
+  "tagLine": "Crafting accessible, performant, and beautiful web experiences.",
+  "about": "I'm a frontend developer with a passion for clean code, animation, and accessibility. I work mostly with React and have a background in UI/UX design.",
+  "projects": {
+    "1": {
+      "name": "Portfolio Website",
+      "description": {
+        "short": "A personal site to showcase my work and blogs.",
+        "detailed": "Built with React and Bootstrap, this responsive portfolio features smooth animations, lazy loading, and dynamic routing. It serves as both a professional landing page and a writing platform.",
+        "media": ["/assets/images/portfolio-1.jpg", "/assets/images/portfolio-2.jpg"]
+      },
+      "link": "/projects/1"
+    },
+    "2": {
+      "name": "Weather Dashboard",
+      "description": {
+        "short": "Real-time weather info with OpenWeatherMap API.",
+        "detailed": "A responsive dashboard that fetches and displays weather data for multiple cities. It features chart visualizations, dark mode, and offline caching using service workers.",
+        "media": ["/assets/images/weather-1.jpg", "/assets/images/weather-2.jpg"]
+      },
+      "link": "/projects/2"
+    }
+  }
+}

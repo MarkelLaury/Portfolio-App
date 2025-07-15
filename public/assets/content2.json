@@ -1,0 +1,44 @@
+{
+  "firstName": "Malik",
+  "lastName": "Jordan",
+  "profilePic": "https://images.sidearmdev.com/resize?url=https%3a%2f%2fdxbhsrqyrr690.cloudfront.net%2fsidearm.nextgen.sites%2fwingatebulldogs.com%2fimages%2f2024%2f8%2f22%2fDSC05412.JPG&width=800&type=webp",
+  "title": "Full Stack Web Developer",
+  "tagLine": "From idea to production — I build reliable web apps end-to-end.",
+  "description": "I'm a full stack developer with a Django and React focus. I love solving complex problems and building apps that scale. When I'm not coding, I mentor aspiring devs and teach CS in high school classrooms.",
+  "projects": {
+    "1": {
+      "title": "Resort Booking System",
+      "description": {
+        "short": "Microservice-based app for managing resort bookings.",
+        "detailed": "Built with FastAPI, DynamoDB, and AWS Cognito, this app allows customers to book rooms, admins to manage staff and resorts, and employees to check guests in/out. Features include JWT-based auth, real-time availability, and payment integration with Stripe.",
+        "media": ["/assets/images/resort-1.jpg", "/assets/images/resort-2.jpg"]
+      },
+      "link": "/projects/1",
+      "demoURL": "https://demowebsite.com/",
+      "repoURL": "https://github.com/",
+      "mediaURLs": ["https://kashmironline.net/wp-content/uploads/2019/07/Screenshot_2019-06-22-11-33-14-085_com.android.browser.jpg", ""]
+    },
+    "2": {
+      "name": "Classroom Management App",
+      "description": {
+        "short": "A teacher dashboard to track attendance and assignments.",
+        "detailed": "Developed using Django REST and React, this tool helps teachers track student attendance, assignments, and grades in real time. Includes CSV export, chart insights, and role-based access control.",
+        "media": ["/assets/images/classroom-1.jpg"]
+      },
+      "link": "/projects/2",
+      "demoURL": "https://demowebsite.com/",
+      "repoURL": "https://github.com/",
+      "mediaURLs": ["https://kashmironline.net/wp-content/uploads/2019/07/Screenshot_2019-06-22-11-33-14-085_com.android.browser.jpg", ""]
+    }
+  },
+  "socials": [
+    {
+      "name":"Linked In",
+      "url": "https://linkedin.com"
+    },
+    {
+      "name":"GitHub",
+      "url": "https://github.com"
+    }
+  ]
+}

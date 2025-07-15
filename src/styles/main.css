@@ -1,0 +1,224 @@
+/* Break Points */
+/* Colors */
+/* Fonts */
+@import url('bootstrap-icons/font/bootstrap-icons.css');
+.landing-about {
+  background: #B82D2D;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 8px;
+}
+.landing-about p {
+  color: #FFAEA8;
+}
+.landing-about h2 {
+  color: white;
+}
+.landing-projects {
+  margin-top: 200px;
+}
+.landing-projects h2 {
+  color: #570100;
+}
+.route-hero h1 {
+  text-align: center;
+  color: #570100;
+}
+.route-resume {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.route-resume h1 {
+  color: #570100;
+}
+.landing {
+  padding: 0;
+}
+.landing-hero {
+  text-align: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.landing-hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+.landing-hero-left h1 {
+  padding-right: 80px;
+  color: #10100f;
+  text-align: right;
+  letter-spacing: 5.55px;
+}
+.landing-hero-left h1.last {
+  color: #FB6058;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 576px) {
+  .landing-hero-middle {
+    width: 45vw;
+    margin: 0 auto;
+  }
+}
+.landing-hero-middle-image {
+  padding: 0;
+  aspect-ratio: 0.8;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.landing-hero-right h3 {
+  color: #B82D2D;
+  text-align: left;
+}
+.basic-tile {
+  align-items: center;
+  padding: inherit;
+  background: #B82D2D;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media screen and (max-width: 576px) {
+  .basic-tile {
+    min-height: 0;
+  }
+}
+.basic-tile-wrapper {
+  margin-bottom: 35px;
+}
+.basic-tile-wrapper h1 {
+  margin-top: 60px;
+  text-align: center;
+}
+.basic-tile-image {
+  padding: 0;
+  aspect-ratio: 1.6;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.basic-tile-image img {
+  height: 100%;
+}
+@media screen and (max-width: 576px) {
+  .basic-tile-image {
+    aspect-ratio: 1.61;
+  }
+}
+.basic-tile-text {
+  text-align: left;
+  padding-left: 20px;
+}
+.basic-tile-text h3 {
+  font-size: 1.4rem;
+  line-height: 1.45;
+  margin-top: 0.5rem;
+  color: white;
+}
+.basic-tile-text h5 {
+  margin-top: 1.14285714rem;
+  margin-bottom: 1.14285714rem;
+  font-size: 0.722rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14285714rem;
+  font-weight: 200;
+}
+.basic-tile-text p {
+  color: white;
+}
+.basic-tile-text a {
+  display: block;
+}
+.basic-tile-link {
+  text-decoration: none;
+  color: darkblue;
+}
+.basic-tile-link:hover {
+  opacity: 0.76;
+  text-decoration: none !important;
+  color: black;
+}
+.basic-tile-link:hover h1,
+.basic-tile-link:hover h2,
+.basic-tile-link:hover h3,
+.basic-tile-link:hover p {
+  text-decoration: none;
+}
+.basic-tile-link:hover h1:hover,
+.basic-tile-link:hover h2:hover,
+.basic-tile-link:hover h3:hover,
+.basic-tile-link:hover p:hover {
+  text-decoration: none;
+}
+.basic-tile-link h1,
+.basic-tile-link h2,
+.basic-tile-link h3,
+.basic-tile-link p {
+  text-decoration: none;
+}
+.basic-tile-link h1:hover,
+.basic-tile-link h2:hover,
+.basic-tile-link h3:hover,
+.basic-tile-link p:hover {
+  text-decoration: none;
+}
+.basic-tile .bi {
+  margin-left: 0.4rem;
+  font-size: 0.7rem;
+}
+.basic-tile-button {
+  background: #B82D2D;
+  padding: 5px 12px;
+  text-decoration: none;
+  color: white;
+  margin: 12px;
+  border-radius: 5px;
+}
+.basic-tile-button:hover {
+  background-color: #FFAEA8;
+  color: #10100f;
+}
+footer {
+  background: #570100;
+  color: white;
+}
+footer h2 {
+  color: white;
+}
+footer p {
+  color: #FFAEA8;
+}
+footer a {
+  color: #FFAEA8;
+}
+footer a:hover {
+  color: white;
+}
+.main-navbar .navbar-brand {
+  color: white;
+}
+.main-navbar .navbar-brand:hover {
+  color: #FFAEA8;
+}
+.main-navbar .nav-link {
+  color: #FFAEA8;
+}
+.main-navbar .nav-link:hover {
+  color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h4,
+a,
+p {
+  color: #10100f;
+}

@@ -1,0 +1,40 @@
+.landing{
+    &-about{
+        background: @tile-header;
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+        color: white;
+        border-radius: 8px;
+        p{
+            color: @tile-background;
+        }
+        h2{
+            color: @light;
+        }
+    }
+    &-projects{
+        margin-top: 200px;
+        h2{
+            color: @tile-text;
+        }
+    }
+}
+.route{
+    &-hero{
+        h1{
+            text-align: center;
+            color: @tile-text;
+        }
+    }
+    &-resume{
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            color: @tile-text;
+        }
+    }
+}

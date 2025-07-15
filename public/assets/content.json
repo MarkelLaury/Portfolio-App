@@ -1,0 +1,23 @@
+{
+  "name": "[Full Name]",
+  "profileImg": "url to profile pic asset",
+  "title": "[Job Title]",
+  "tagLine": "tagline",
+  "about": "[Short description] ",
+  "projects": {
+    "1":{
+      "name": "Project One",
+      "description": {
+        "short": "This is a short description of the first project.",
+        "detailed": "This is a detailed description of the first project.",
+        "media": ["links", "links", "links"]
+      },
+      "link": "/project1"
+    },
+    "2":{
+      "name": "Project Two",
+      "description": "This is a description of the second project.",
+      "link": "/project2"
+    }
+  }
+}
