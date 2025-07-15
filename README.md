@@ -45,3 +45,58 @@ Create a file at `public/assets/content.json` with this structure (replace the e
   ]
 }
 ```
+
+### 2. Configuring the Dictionary Provider
+
+In `src/context/DictionaryContext.tsx`, change this line:
+
+```typescript
+fetch("/assets/content2.json"); // ← Change this
+```
+
+To point to your file:
+
+```typescript
+fetch("/assets/content.json"); // ← Your file
+```
+
+### 3. Running the Application
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm start
+```
+
+Create production build (optional):
+
+```bash
+npm run build
+```
+
+## Customization Tips
+
+Colors: Modify `src/styles/variables.less`
+
+Layout: Edit components in `src/UI/` or `src/routes/`
+
+Images: Add to either `public/assets/images/` or other cloud platform (AWS-S3) and reference in your JSON
+
+## Troubleshooting
+
+### ❌ Dictionary not loading?
+
+- Verify file exists at public/assets/content.json
+- Check for JSON syntax errors
+- Ensure correct path in DictionaryContext.tsx
+
+### ❌ App won't start?
+
+- Delete node_modules and run npm install
+- Check console for specific error messages
